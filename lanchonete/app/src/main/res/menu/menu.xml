@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/bt_lanches"
+        android:checked="true"
+        android:title="Lanches"
+        app:showAsAction="always" />
+    <item
+        android:title="Porções"
+        android:id="@+id/bt_porcoes"
+        app:showAsAction="always"/>
+    <item
+        android:title="Bebibas"
+        android:id="@+id/bt_bebidas"
+        app:showAsAction="always"/>
+</menu>

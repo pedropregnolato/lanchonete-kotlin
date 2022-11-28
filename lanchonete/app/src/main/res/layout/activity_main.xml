@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:gravity="center"
+        android:text="LANCHONETE"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="Menu"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:layout_width="318dp"
+        android:layout_height="140dp"
+        android:layout_gravity="center"
+        android:src="@mipmap/lanche_logo_round" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:background="#00FFFFFF"
+        android:backgroundTint="#00FFFFFF" />
+
+    <Button
+        android:id="@+id/bt_login"
+        android:layout_width="206dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="Login" />
+
+</LinearLayout>

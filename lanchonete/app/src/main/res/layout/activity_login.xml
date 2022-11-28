@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/id_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/id_login_on"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="ID"
+        android:fontFamily="monospace"
+        android:inputType="textPersonName"
+        android:textAlignment="viewStart"
+        tools:ignore="RtlCompat" />
+
+    <EditText
+        android:id="@+id/password_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:fontFamily="monospace"
+        android:hint="password"
+        android:inputType="numberPassword"
+        android:minHeight="48dp"
+        android:textAlignment="viewStart"
+        tools:ignore="RtlCompat" />
+
+    <Button
+        android:id="@+id/bt_login_on"
+        android:layout_width="117dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_toRightOf="@+id/bt_register"
+        android:text="Entrar" />
+
+    <Button
+        android:id="@+id/bt_register"
+        android:onClick="mostrarErro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Registrar" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="196dp"
+        android:layout_gravity="center"
+        android:scaleType="centerInside"
+        android:src="@mipmap/lanche_logo_foreground" />
+
+    <Button
+        android:id="@+id/bt_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:backgroundTint="#F43434"
+        android:text="Voltar"
+        android:textColor="@color/white" />
+
+</LinearLayout>
